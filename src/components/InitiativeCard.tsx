@@ -9,14 +9,14 @@ interface InitiativeCardProps {
 
 const InitiativeCard = ({ logo, name, ctaText, logoColors }: InitiativeCardProps) => {
   return (
-    <div className="flex items-center justify-between p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+    <div className="flex items-center justify-between p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
       <div className="flex items-center gap-4">
-        <div className={cn("w-12 h-12 rounded-lg flex items-center justify-center", logoColors)}>
+        <div className={cn("w-12 h-12 rounded-xl flex items-center justify-center", logoColors)}>
           <img src={logo} alt={name} className="w-8 h-8" />
         </div>
-        <span className="text-xl font-medium">{name}</span>
+        <span className="text-xl font-medium text-gray-800">{name}</span>
       </div>
-      <button className="px-6 py-2 bg-gray-100 text-gray-900 rounded-lg hover:bg-gray-200 transition-colors">
+      <button className="px-6 py-2.5 bg-gray-50 text-gray-700 rounded-lg hover:bg-gray-100 transition-colors border border-gray-200">
         {ctaText}
       </button>
     </div>
