@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="text-center space-y-8 mb-16">
       <h1 className="text-6xl md:text-7xl font-bold tracking-tight">
-        liam<span className="text-[#ff0066]">ottley</span>
+        umut<span className="text-[#ff0066]">basilgan</span>
       </h1>
       <div className="max-w-2xl mx-auto space-y-3">
         <p className="text-2xl md:text-3xl text-gray-600">
