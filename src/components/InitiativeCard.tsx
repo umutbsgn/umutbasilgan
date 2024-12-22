@@ -10,7 +10,7 @@ interface InitiativeCardProps {
 
 const InitiativeCard = ({ logo, name, ctaText, logoColors, url }: InitiativeCardProps) => {
   return (
-    <div className="flex items-center justify-between p-6 bg-white/80 backdrop-blur-sm rounded-xl border border-gray-100 hover:shadow-sm transition-all">
+    <div className="flex items-center justify-between p-6 bg-white rounded-xl border border-gray-100 hover:shadow-sm transition-all">
       <div className="flex items-center gap-4">
         <div className={cn("w-12 h-12 rounded-xl flex items-center justify-center", logoColors)}>
           <img src={logo} alt={name} className="w-8 h-8" />
