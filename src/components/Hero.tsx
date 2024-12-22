@@ -8,7 +8,7 @@ const Hero = () => {
       </h1>
       <div className="max-w-2xl mx-auto space-y-3">
         <p className="text-2xl md:text-3xl text-gray-600">
-          Building a portfolio of AI companies
+          Building a portfolio of AI solutions
         </p>
         <p className="text-2xl md:text-3xl text-gray-600">
           to change the world (for the better)
