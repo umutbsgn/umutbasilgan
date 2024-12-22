@@ -4,7 +4,13 @@ const SocialLinks = () => {
   const socials = [
     {
       name: "Instagram",
-      icon: <Instagram className="w-4 h-4" />,
+      icon: (
+        <img
+          src="https://cdn.prod.website-files.com/668bea2dd9da6d41120401b1/668c15208a140f988958d84f_logo-ig-png-32464.png"
+          alt="instagram"
+          className="w-4 h-4"
+        />
+      ),
       url: "https://www.instagram.com/umut_basilgan/",
     },
     {
