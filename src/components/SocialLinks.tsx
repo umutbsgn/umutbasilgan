@@ -9,7 +9,7 @@ const SocialLinks = () => {
           className="w-4 h-4"
         />
       ),
-      url: "https://www.instagram.com/umut_basilgan/",
+      url: "https://www.instagram.com/umut_bsgn/",
     },
     {
       name: "Twitter",
