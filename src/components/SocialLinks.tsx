@@ -1,17 +1,6 @@
 const SocialLinks = () => {
   const socials = [
     {
-      name: "Instagram",
-      icon: (
-        <img
-          src="https://cdn.prod.website-files.com/668bea2dd9da6d41120401b1/668c15208a140f988958d84f_logo-ig-png-32464.png"
-          alt="instagram"
-          className="w-4 h-4"
-        />
-      ),
-      url: "https://www.instagram.com/umut_bsgn/",
-    },
-    {
       name: "LinkedIn",
       icon: (
         <svg
@@ -25,6 +14,17 @@ const SocialLinks = () => {
         </svg>
       ),
       url: "https://www.linkedin.com/in/umut-basilgan/",
+    },
+    {
+      name: "Instagram",
+      icon: (
+        <img
+          src="https://cdn.prod.website-files.com/668bea2dd9da6d41120401b1/668c15208a140f988958d84f_logo-ig-png-32464.png"
+          alt="instagram"
+          className="w-4 h-4"
+        />
+      ),
+      url: "https://www.instagram.com/umut_bsgn/",
     },
     {
       name: "Twitter",
@@ -51,7 +51,7 @@ const SocialLinks = () => {
           href={social.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-4 py-2 bg-black hover:bg-gray-900 text-white rounded-lg transition-all"
+          className="inline-flex items-center gap-2 px-3 py-1.5 bg-black hover:bg-gray-900 text-white rounded-full transition-all"
         >
           {social.icon}
           <span className="text-sm font-medium">{social.name}</span>
