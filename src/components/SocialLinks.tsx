@@ -1,5 +1,3 @@
-import { Instagram } from "lucide-react";
-
 const SocialLinks = () => {
   const socials = [
     {
@@ -38,7 +36,7 @@ const SocialLinks = () => {
           href={social.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-4 py-2.5 bg-black hover:bg-gray-900 text-white rounded-lg border border-gray-200 transition-all hover:shadow-sm"
+          className="inline-flex items-center gap-2 px-4 py-2 bg-black hover:bg-gray-900 text-white rounded-lg transition-all"
         >
           {social.icon}
           <span className="text-sm font-medium">{social.name}</span>
