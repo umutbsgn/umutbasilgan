@@ -10,7 +10,7 @@ const Hero = () => {
           Building AI Solutions to Save the World
         </p>
         <p className="text-2xl md:text-3xl text-gray-400">
-          (Yes, Actually Save It, Not Take It Over)
+          (Not Take It Over)
         </p>
       </div>
     </div>
