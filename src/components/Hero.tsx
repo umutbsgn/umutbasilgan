@@ -7,10 +7,10 @@ const Hero = () => {
       </h1>
       <div className="max-w-2xl mx-auto space-y-3">
         <p className="text-2xl md:text-3xl text-gray-400">
-          Building a portfolio of AI solutions
+          Building AI Solutions to Save the World
         </p>
         <p className="text-2xl md:text-3xl text-gray-400">
-          to change the world (for the better)
+          (Yes, Actually Save It, Not Take It Over)
         </p>
       </div>
     </div>
