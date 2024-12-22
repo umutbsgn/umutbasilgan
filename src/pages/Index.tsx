@@ -16,7 +16,7 @@ const Index = () => {
         <SocialLinks />
         <Initiatives />
         <div className="text-center mt-16 text-gray-500">
-          umutbasilgan
+          Umut Basilgan
         </div>
       </div>
     </div>
