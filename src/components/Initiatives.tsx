@@ -9,7 +9,7 @@ const Initiatives = () => {
       logoColors: "bg-white",
     },
     {
-      logo: "/lovable-uploads/4d79d30b-400f-4496-92b4-fec973ff6c4b.png",
+      logo: "/lovable-uploads/e26dd5e0-a218-4958-9f9e-fb55477805c2.png",
       name: "Data-UB",
       ctaText: "Learn More",
       logoColors: "bg-white",
