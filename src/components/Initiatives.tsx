@@ -16,8 +16,8 @@ const Initiatives = () => {
       url: "https://data-ub.de"
     },
     {
-      logo: "/aaa-logo.png",
-      name: "AAA Accelerator",
+      logo: "/lovable-uploads/6aac216f-4e49-4223-a01e-1250a4b8acbb.png",
+      name: "Crawler Club",
       ctaText: "Start an AI Business",
       logoColors: "bg-white",
     },
