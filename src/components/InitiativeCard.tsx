@@ -12,8 +12,8 @@ const InitiativeCard = ({ logo, name, ctaText, logoColors, url }: InitiativeCard
   return (
     <div className="flex items-center justify-between p-6 bg-[#E5E5E5] rounded-xl border border-gray-100 hover:shadow-sm transition-all">
       <div className="flex items-center gap-4">
-        <div className={cn("w-12 h-12 rounded-xl flex items-center justify-center bg-white", logoColors)}>
-          <img src={logo} alt={name} className="w-8 h-8" />
+        <div className={cn("w-16 h-16 rounded-xl flex items-center justify-center bg-white", logoColors)}>
+          <img src={logo} alt={name} className="w-12 h-12" />
         </div>
         <span className="text-xl font-medium text-gray-800">{name}</span>
       </div>
