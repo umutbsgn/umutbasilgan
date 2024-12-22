@@ -3,12 +3,6 @@ import InitiativeCard from "./InitiativeCard";
 const Initiatives = () => {
   const initiatives = [
     {
-      logo: "/team-icon.png",
-      name: "Join the Team!",
-      ctaText: "Apply Now",
-      logoColors: "bg-black",
-    },
-    {
       logo: "/sk-logo.png",
       name: "My Free Community",
       ctaText: "Join Now",
@@ -16,15 +10,10 @@ const Initiatives = () => {
     },
     {
       logo: "/morningside-logo.png",
-      name: "Morningside AI",
+      name: "Data-UB",
       ctaText: "Learn More",
       logoColors: "bg-[#00ff99]",
-    },
-    {
-      logo: "/agentive-logo.png",
-      name: "Agentive",
-      ctaText: "Build AI Agents",
-      logoColors: "bg-[#0066ff]",
+      url: "https://data-ub.de"
     },
     {
       logo: "/aaa-logo.png",

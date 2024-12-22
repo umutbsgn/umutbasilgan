@@ -5,9 +5,10 @@ interface InitiativeCardProps {
   name: string;
   ctaText: string;
   logoColors?: string;
+  url?: string;
 }
 
-const InitiativeCard = ({ logo, name, ctaText, logoColors }: InitiativeCardProps) => {
+const InitiativeCard = ({ logo, name, ctaText, logoColors, url }: InitiativeCardProps) => {
   return (
     <div className="flex items-center justify-between p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
       <div className="flex items-center gap-4">
@@ -16,9 +17,14 @@ const InitiativeCard = ({ logo, name, ctaText, logoColors }: InitiativeCardProps
         </div>
         <span className="text-xl font-medium text-gray-800">{name}</span>
       </div>
-      <button className="px-6 py-2.5 bg-gray-50 text-gray-700 rounded-lg hover:bg-gray-100 transition-colors border border-gray-200">
+      <a 
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-6 py-2.5 bg-gray-50 text-gray-700 rounded-lg hover:bg-gray-100 transition-colors border border-gray-200"
+      >
         {ctaText}
-      </button>
+      </a>
     </div>
   );
 };
