@@ -3,23 +3,30 @@ import InitiativeCard from "./InitiativeCard";
 const Initiatives = () => {
   const initiatives = [
     {
-      logo: "/lovable-uploads/dbd75124-6c6c-4a02-9489-489e22989881.png",
+      logo: "/lovable-uploads/81a43159-bc45-49c6-91dc-25943a4a3948.png",
       name: "My Free Community",
       ctaText: "Join Now",
-      logoColors: "bg-white",
+      logoColors: "bg-black",
+    },
+    {
+      logo: "/lovable-uploads/25a8e79c-66b1-4ede-874b-42556e562c93.png",
+      name: "LinkedIn",
+      ctaText: "Connect",
+      logoColors: "bg-black",
+      url: "https://www.linkedin.com/in/umutbasilgan/"
     },
     {
       logo: "/lovable-uploads/8c1e0a24-11c3-41e6-bdca-cc80eeac6ee5.png",
       name: "Data-UB",
       ctaText: "Learn More",
-      logoColors: "bg-white",
+      logoColors: "bg-black",
       url: "https://data-ub.de"
     },
     {
       logo: "/lovable-uploads/6dd3f6bc-bac5-482d-b743-be8088fd13df.png",
       name: "AI Masterclub",
       ctaText: "Start an AI Business",
-      logoColors: "bg-white",
+      logoColors: "bg-black",
     },
   ];
 
