@@ -3,6 +3,12 @@ import InitiativeCard from "./InitiativeCard";
 const Initiatives = () => {
   const initiatives = [
     {
+      logo: "/lovable-uploads/81a43159-bc45-49c6-91dc-25943a4a3948.png",
+      name: "My Free Community",
+      ctaText: "Join Now",
+      logoColors: "bg-black",
+    },
+    {
       logo: "/lovable-uploads/25a8e79c-66b1-4ede-874b-42556e562c93.png",
       name: "LinkedIn",
       ctaText: "Connect",
