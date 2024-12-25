@@ -3,21 +3,21 @@ import InitiativeCard from "./InitiativeCard";
 const Initiatives = () => {
   const initiatives = [
     {
-      logo: "/lovable-uploads/8625d22f-f5da-4cee-9e2f-df52878599c6.png",
+      logo: "/lovable-uploads/dbd75124-6c6c-4a02-9489-489e22989881.png",
       name: "My Free Community",
       ctaText: "Join Now",
       logoColors: "bg-white",
     },
     {
-      logo: "/lovable-uploads/fb461d7c-ea95-46e3-a98f-540ff2acd01c.png",
+      logo: "/lovable-uploads/8c1e0a24-11c3-41e6-bdca-cc80eeac6ee5.png",
       name: "Data-UB",
       ctaText: "Learn More",
       logoColors: "bg-white",
       url: "https://data-ub.de"
     },
     {
-      logo: "/lovable-uploads/6aac216f-4e49-4223-a01e-1250a4b8acbb.png",
-      name: "Crawler Club",
+      logo: "/lovable-uploads/6dd3f6bc-bac5-482d-b743-be8088fd13df.png",
+      name: "AI Masterclub",
       ctaText: "Start an AI Business",
       logoColors: "bg-white",
     },
