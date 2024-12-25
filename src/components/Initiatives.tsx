@@ -5,7 +5,7 @@ const Initiatives = () => {
     {
       logo: "/lovable-uploads/81a43159-bc45-49c6-91dc-25943a4a3948.png",
       name: "My Free Community",
-      ctaText: "Join Now",
+      ctaText: "SOON",
       logoColors: "bg-black",
     },
     {
@@ -18,7 +18,7 @@ const Initiatives = () => {
     {
       logo: "/lovable-uploads/6dd3f6bc-bac5-482d-b743-be8088fd13df.png",
       name: "AI Masterclub",
-      ctaText: "Start an AI Business",
+      ctaText: "SOON",
       logoColors: "bg-black",
     },
   ];
