@@ -4,7 +4,7 @@ const SocialLinks = () => {
       name: "LinkedIn",
       icon: (
         <img
-          src="/lovable-uploads/91193ece-2a1c-4e09-ab1f-fa3a376472b0.png"
+          src="/lovable-uploads/14825aa5-9d6f-43fe-a1be-d79bcf42707d.png"
           alt="linkedin"
           className="w-4 h-4"
         />
