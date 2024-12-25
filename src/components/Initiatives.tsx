@@ -9,13 +9,6 @@ const Initiatives = () => {
       logoColors: "bg-black",
     },
     {
-      logo: "/lovable-uploads/25a8e79c-66b1-4ede-874b-42556e562c93.png",
-      name: "LinkedIn",
-      ctaText: "Connect",
-      logoColors: "bg-black",
-      url: "https://www.linkedin.com/in/umutbasilgan/"
-    },
-    {
       logo: "/lovable-uploads/8c1e0a24-11c3-41e6-bdca-cc80eeac6ee5.png",
       name: "Data-UB",
       ctaText: "Learn More",
