@@ -17,14 +17,20 @@ const InitiativeCard = ({ logo, name, ctaText, logoColors, url }: InitiativeCard
         </div>
         <span className="text-xl font-medium text-gray-800">{name}</span>
       </div>
-      <a 
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-6 py-2 bg-black hover:bg-gray-900 text-white rounded-lg text-sm font-medium transition-colors"
-      >
-        {ctaText}
-      </a>
+      {url ? (
+        <a 
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-2 bg-black hover:bg-gray-900 text-white rounded-lg text-sm font-medium transition-colors"
+        >
+          {ctaText}
+        </a>
+      ) : (
+        <span className="px-6 py-2 bg-black text-white rounded-lg text-sm font-medium">
+          {ctaText}
+        </span>
+      )}
     </div>
   );
 };
