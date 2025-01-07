@@ -13,7 +13,7 @@ const Initiatives = () => {
       name: "Data-UB",
       ctaText: "Learn More",
       logoColors: "bg-black",
-      url: "https://data-ub.de"
+      url: "https://discovery.data-ub.de/"
     },
     {
       logo: "/lovable-uploads/6dd3f6bc-bac5-482d-b743-be8088fd13df.png",
